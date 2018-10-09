@@ -1,4 +1,4 @@
-﻿/** Primary Fonts **/
+/** Primary Fonts **/
 /* 
 **
 Gothic A1 = Korean
@@ -50,6 +50,7 @@ body:after {
 	background-image:url("headbg2.jpg");
 	background-color:#18bbc5;
 }
+
 
 	* {
 		outline:0;
@@ -318,7 +319,6 @@ button:not([secondary]):not([tabbed]):hover::after, button:not([secondary]):not(
 		 -o-transform:none;
 			transform:none;
 		min-width:150px;
-		max-width:250px;
 	}
 	 
 	 .dropdown-content a {
@@ -332,6 +332,7 @@ button:not([secondary]):not([tabbed]):hover::after, button:not([secondary]):not(
       transition:all 250ms linear 10ms;
       border:1px solid transparent;
       box-shadow:0 0 0 1px transparent;
+	  white-space:nowrap;
 	 }
 
 	 .dropdown-content a:hover {
